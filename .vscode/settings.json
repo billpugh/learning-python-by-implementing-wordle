@@ -1,0 +1,11 @@
+{
+    "github.copilot.enable": {
+        "*": false
+    },
+    "cSpell.words": [
+        "termcolor",
+        "venv",
+        "wordle",
+        "pyproject"
+    ]
+}
