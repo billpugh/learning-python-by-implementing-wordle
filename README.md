@@ -54,8 +54,8 @@ If you have trouble figuring out how to implement wordle, ask the agent for help
 
 ## How VS Code was put into coaching mode
 
-The instructions in `.github/copilot-instructions.md` file provide instructions about how chat in agent mode should work for this project. The `.vscode/settings.json` file turns off automatic code completion suggestions.
+The instructions in `.github/copilot-instructions.md` provide instructions about how chat in agent mode should work for this project. The `.vscode/settings.json` file turns off automatic code completion suggestions.
 
-The initial part of the copilot-instructions was developed from a discussion with Claude Code set to have [learning mode output style](https://docs.anthropic.com/en/docs/claude-code/output-styles), which gave it access to the custom instructions Claude Code uses for learning mode. Those rules specifically instruct the model to anticipate that students already have experience programming in Java and C, but need help learning Python syntax, data structures, library methods, and idioms.
+The initial part of the copilot-instructions was developed from a discussion with Claude Code set to have [learning mode output style](https://docs.anthropic.com/en/docs/claude-code/output-styles), which gave it access to the custom instructions Claude Code uses for learning mode. The custom instructions specifically instruct the model to anticipate that students already have experience programming in Java and C, but need help learning Python syntax, data structures, library methods, and idioms.
 
 The last part of it was written by GPT 4.1, after VS Code, following the above  instructions, still generated entire function bodies when just given the information for the function header.
