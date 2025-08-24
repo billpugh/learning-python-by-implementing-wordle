@@ -24,7 +24,7 @@ We assume you are using [uv](https://docs.astral.sh/uv/) for python dependency m
 The project is set up so that Copilot won't just give you a proposed solution when you type the name of the function you want to implement. Typical VS Code behavior has been changed in two ways:
 
 * A rules file is read by the GitHub agent and guides the agent to act as a coach helping you to learn python and implement the project. You can fully implement the project by just having a conversation with the agent and letting it write the code. Or you can also edit parts of the code yourself.
-* Autocomplete suggestions have been disabled, because autocomplete ignores the rules file, and will somethings write 20+ lines of code just based on the function name.
+* Autocomplete suggestions have been disabled, because autocomplete ignores the rules file, and will sometimes generate 20+ lines of code just based on the function name.
 
 You can primarily or exclusively generate the code for project by typing in the chat window, rather than the edit window for the playWordle.py file. The coach should be able to take a description of some code you want written and turn that into 1-6 lines of python code. Larger chunks of functionality may need to be broken down into several rounds of code generation. It should be able to just add the code to the playWordle.py file, although we have seen cases where you will need to tap the "Apply in Editor" button, ask it to update the file, or manually cut-and-paste the code.
 
